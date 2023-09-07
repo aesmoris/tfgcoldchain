@@ -26,6 +26,9 @@
 
 
 ## **Organización del proyecto**
+ ### sketch_webserver
+ Carpeta que contiene el archivo .ino que se encarga de que el sensor DHT11 registre las temperaturas y de que la placa ESP8266 cree un servidor web para almacenar los resultados.
+
  ### frontend
   - contracts: Esta subcarpeta contiene el codigo de los smart contracts desarrollados.
   - migrations: En esta subcarpeta se almacena la migración inicial y el despliegue de smart contracts.
@@ -36,9 +39,6 @@
      - src\Json: Carpeta en la que se almacenarán los JSON generados al compilar y desplegar los contratos con Truffle. Cuando se realice el despliegue, se generará dentro de la carpeta **frontend** una carpeta **builds** con dichos JSON, pero como create-react-app no deja utilizar archivos fuera de **src**, se copiarán los JSON generados a esta carpeta.
    
   Además de todas las carpetas mecionadas anteriormente, esta carpeta **frontend** contiene dos archivos JSON que trabajan en conjunto para administrar dependencias y asegurar la uniformidad, la capacidad de reproducción y la seguridad al definir versiones de dependencias y configuraciones del proyecto. También contiene el archivo de configuración de Truffle que sirve para definir cómo se compilan, migran y gestionan los contratos inteligentes.
-
-  ###sketch_webserver
-  Carpeta que contiene el archivo .ino que se encarga de que el sensor DHT11 registre las temperaturas y de que la placa ESP8266 cree un servidor web para almacenar los resultados.
 
  ## Instrucciones para su utilización
  Después de haber clonado el repositorio, instalamos las dependencias:
