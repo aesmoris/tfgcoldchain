@@ -5,8 +5,8 @@
 
 #define DHTTYPE DHT11   // DHT 11
 
-const char* ssid = "WIFI_MESH_34C8";  // Introduce tu SSID
-const char* password = "XxStsdECFTADc9";  // Introduce la password
+const char* ssid = "TU_SSID";  // Introduce tu SSID
+const char* password = "TU_CONTRASEÑA";  // Introduce la password
 
 ESP8266WebServer server(80);
 
