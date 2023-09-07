@@ -64,4 +64,7 @@ npm start
 ```
 
 Cabe destacar que para poder desplegar el servidor web correctamente, hay que instalar en Arduino la librería "DHT by Adafruit", el administrador de placas "esp8266 by ESP8266 Community" y la librería "ArduinoJson by Benoit Blanchon". Además de esto, en el apartado File -> Preferences -> Additional boards manager URL, hay que añadir la URL "http://arduino.esp8266.com/stable/package_esp8266com_index.json", que habilita el soporte para programar placas basadas en el ESP8266.
+
+## **Licencia**
+GPL v3
     
