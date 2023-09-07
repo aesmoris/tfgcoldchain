@@ -47,7 +47,7 @@ cd tfgcoldchain
 cd frontend
 npm i
 ```
-En el archivo frontend\truffle-config.js, indicamos la nombre de red y el puerto utilizados por Ganache (por defecto 5777 en network_id y 7545 el puerto).
+Una vez que se han instalado las dependencias, abrimos Ganache y, en el archivo frontend\truffle-config.js, indicamos la nombre de red y el puerto utilizados por Ganache (por defecto 5777 en network_id y 7545 el puerto).
 Una vez que se ha configurado el archivo, procedemos a compilar y desplegar los smart contracts con Truffle:
 ```sh
 truffle compile
